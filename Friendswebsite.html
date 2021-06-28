@@ -1,0 +1,315 @@
+<!doctype html><html lang="en"><head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="Website.css"> 
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&amp;display=swap" rel="stylesheet"> 
+  <title>Friendship</title> 
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    font-size: 22px;
+} 
+.ul {
+    list-style: none;   
+    width: 70%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#about{
+    display: flex;
+}
+.li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav li a {
+    padding-left: 70px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.nav li a:hover{
+    color: gray;
+}
+.search{
+    width: 40%;
+    height: 43px;
+    text-align: center;
+    padding-top: 15px;
+}
+#sercha{
+    border-radius: 8px;
+}
+.background{
+    background:rgb(255, 255, 255) url('Homepage.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.fsection{
+    height: 150vh;
+}
+
+.boxmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    max-width: 70%;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.fhalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.shalf{
+    width: 30%;
+}
+
+.a{
+    color: white;
+    padding-left: 120px;
+    display: none;
+}
+
+.shalf img{
+    border: 4px solid white;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin: auto;
+}
+
+.textsmall{
+    font-size:48px;
+    /* font-family: 'Noto Serif', serif; */
+    border: white;
+    padding-left: 150px;
+    color: rgb(0, 0, 0);
+    padding-top: 30px;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Kaushan Script', cursive;
+}
+.class{
+    justify-content: left;
+    align-items: baseline;
+    max-width: 20%;
+}
+.btn{
+    background: none;
+    color: white ;
+    padding: 4px 12px;
+    border: 2px solid rgb(41, 37, 37);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btn:hover{
+    color : grey;
+}
+.buttons{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+.btn a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.btn a:hover{
+    color: gray;
+}
+.homepage{
+    font-size: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 263px;
+    max-width: 58%;
+    background: black url('../Images/Homepage.jpeg'); 
+    /* font-family: 'Noto Serif', serif ; */
+    padding-bottom: 200px;
+}
+
+.Quote{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.Quote img{
+    width: 233px;
+    padding-left: 46px;
+    height: 147px;
+}
+.jhan{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    flex-direction: row-reverse;
+}
+
+.jhan img{
+    width: 264px;
+    padding-right: 46px;
+    height: 191px;
+}
+.contact{
+
+    background-color: #f7f6f5;
+    height: 100vh;
+}
+ .textcenter{
+    text-align: center;
+ }
+
+ .form{
+    margin: auto;
+    max-width: 1000px;
+    padding-bottom: 63px; 
+ }
+
+.name{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 22px;
+    margin: 30px 0px;
+    padding: 1px 10px;
+}
+
+.btnsm{
+    color: black;
+}
+
+.text{
+    width: 1017px;
+    border: 1px solid gray;
+    height: 226px;
+    font-size: 20px;
+}
+
+.bhumi{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    width: 70%;
+    margin: auto;   
+}
+
+.bhumi3{
+    text-align: right;
+}
+
+     
+ </style> 
+ </head> 
+ <body> 
+  <nav class="nav background"> 
+   <ul class="ul"> 
+    <li class="li"><a href="#home"><strong>Home</strong></a> </li> 
+    <li class="li"><a href="#about"><strong>About</strong> </a></li> 
+    <li class="class"><a href="#information"><strong>Information</strong></a></li> 
+    <li class="class"><a href="#quiz"><strong>Quotes</strong> </a></li> 
+    <li class="li"><a href="#send"><strong>Send feedback</strong></a></li> 
+   </ul> 
+   <div class="search"> 
+    <input type="text" name="search" id="searcha"> 
+    <button class="btn btnsm"><a href="">search</a> </button> 
+   </div> 
+  </nav> 
+  <section class="background fsection"> 
+   <div class="boxmain"> 
+    <div class="fhalf"> 
+     <p class="textbig"></p> 
+     <p class="textsmall" id="home"> "It's a blessing to have friends with same mental level" </p> 
+     <div class="buttons"> 
+      <button class="btn"><a href="#learn"> Learn more</a></button> 
+     </div> 
+    </div> 
+    <div class="shalf"> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="Quote" id="information"> 
+   <!-- <p class="homepage"> #Best Friends Fore </p> --> 
+   <div class="paras"> 
+    <h1 class="infohead">What is Friendship day</h1> 
+    <p class="info">Friendship Day (also International Friendship Day or Friend's Day) is a day in several countries for celebrating friendship. It was first proposed in 1958 in Paraguay as the "International Friendship Day". It was initially promoted by the greeting cards' industry, evidence from social networking sites shows a revival of interest in the holiday that may have grown with the spread of the Internet, particularly in India, Bangladesh, and Malaysia. Mobile phones, digital communication and social media have contributed to popularize the custom. Those who promote the holiday in South Asia attribute the tradition of dedicating a day in the honour of friends to have originated in the United States in 1935 but it actually dates back to 1919. The exchange of Friendship Day gifts like flowers, cards and wrist bands is a popular tradition on this occasion. </p> 
+   </div> 
+   <div> 
+    <img class="img2" src="https://images.unsplash.com/photo-1500995617113-cf789362a3e1?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="laptop"> 
+   </div> 
+  </section> 
+  <section class="jhan"> 
+   <div class="paras"> 
+    <h1 class="infohead">History</h1> 
+    <p class="info">Friendship Day was originated by Joyce Hall, the founder of Hallmark cards in 1930, intended to be 2 August and a day when people celebrated their friendships by holiday celebrations.Friendship Day was promoted by the greeting card National Association during the 1920s but met with consumer resistance – given that it was too obviously a commercial gimmick to promote greetings cards. In the 1940s the number of Friendship Day cards available in the U.S. by had dwindled and the holiday largely died out there. There is no evidence to date for its uptake in Europe; however, it has been kept alive and revitalised in Asia, where several countries have adopted it.In honor of Friendship Day in 1998, Nane Annan, wife of UN Secretary-General Kofi Annan, named Winnie the Pooh as the world's Ambassador of Friendship at the United Nations. The event was co-sponsored by the U.N. Department of Public Information and Disney Enterprises, and was co-hosted by Kathy Lee Gifford. </p> 
+   </div> 
+   <div> 
+    <img class="img2" src="https://images.unsplash.com/photo-1524601500432-1e1a4c71d692?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="laptop"> 
+   </div> 
+  </section> 
+  <section class="bhumi" id="quiz"> 
+   <p class="bhumi2"> "I would rather walk with a friend in the dark, than alone in the light" </p> 
+   <p class="bhumi3">-Helen Kellar</p> 
+   <p class="bhumi2"> "Good friends are hard to find harder to leave and impossible to forget" </p> 
+   <p class="bhumi3"> "-G.Randolf" </p> 
+   <p class="bhumi2"> "True friends are the ones who have nice things to say about you behind your back" </p> 
+   <p class="bhumi3">-Tait Pics</p> 
+   <p class="bhumi2"> "If friends is your weakest point then you are strongest person in the world" </p> 
+   <p class="bhumi3">-Abrahim Lincoln</p> 
+   <p class="bhumi2"> "Friendship is born at the moment when one person says another: "What! You too" I thougt a was the only one"</p> 
+   <p class="bhumi3">-C.S Lewin</p> 
+  </section> 
+  <section class="contact" id="send"> 
+   <h2 class="textcenter">Send feedback</h2> 
+   <div class="form"> 
+    <input type="text" name="name" id="name" class="name" placeholder="Enter your name"> 
+    <input type="text" name="phone" id="phone" class="name" placeholder="Enter your phone number"> 
+    <input type="email" name="email" id="email" class="name" placeholder="Enter your email"> 
+    <text type="email" name="email" id="email" class="name" placeholder="Your views"> 
+     <textarea name="text" id="text" class="text" cols="30" rows="10" placeholder="Your views"></textarea> 
+     <button class="btn btnsm"> Submit </button> 
+    </text> 
+   </div> 
+  </section> 
+ 
+</body></html>
