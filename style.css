@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 100px;
+    background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1138781799%2F0x0.jpg%3FcropX1%3D28%26cropX2%3D7436%26cropY1%3D0%26cropY2%3D4166);
+    padding-left: 60px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+}
+
+.navbar ul{
+    padding-top: 30px;
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a{
+    /* top: 100px; */
+    padding-right: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.logo img{
+    border-radius: 50px;
+    border: 3px solid black;
+    height: 50px;
+}
+
+.navbar-below-image{
+    width: 100%;
+}
