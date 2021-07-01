@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.navbar ul{
+    padding-top: 30px;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    right: 0;
+}
+
+.navbar ul li a{
+    padding-right: 60px;
+    font-size: 20px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.logotext{
+    padding-top: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+
+.logo img{
+    border-radius: 50px;
+    height: 50px;
+}
+
+.navbar-below-image{
+    height: 300px;
+    margin-right: 83px;
+    margin-left: 100px;
+    position: absolute;
+    right: 0;
+}
+
+.navbar-below-text-image{
+    display: flex;
+    margin-top: 50px;
+    height: 350px;
+}
+
+.navbar-below-text{
+    margin-left: 70px;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-below-text-para{
+    position: absolute;
+    left: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 70px;
+    margin-right: 650px;
+}
+
+.log-in-image{
+    /* position: absolute; */
+    color: black;
+}
+
+.in{
+    margin-right: 40px;
+}
+
+.button{
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: grey;
+}
+
+.button-text{
+    padding-left: 10px;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+    /* margin-bottom: 100px; */
+}
+
+.button-img{
+    padding-right: 10px;
+    padding-top: 5px;
+    /* margin-bottom: 10px; */
+    text-align: center;
+    height: 20px;
+}
+
+.data{
+    /* background-image: url(https://s3.envato.com/files/229252000/preview_image.jpg); */
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.data-of-people{
+    display: flex;
+    margin-left: 200px;
+    height: 100px;
+    /* width: 100%; */
+    font-size: 20px;
+}
+
+.data-numbers{
+    padding-right: 220px;
+}
+
+.data-image{
+    padding-top: 50px;
+    margin-left: 200px;
+}
+
+.data-text{
+    padding-right: 120px;
+}
+
