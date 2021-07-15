@@ -49,12 +49,13 @@
 }
 
 .navbar-below-image{
-    height: 300px;
+    height: 350px;
     font-size: 40px;
     margin-right: 83px;
     margin-left: 100px;
     position: absolute;
-    right: 0;
+    width: 500px;
+    right: 2px;
 }
 
 .navbar-below-text-image{
@@ -69,7 +70,7 @@
 }
 
 .text{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .navbar-below-text-para{
@@ -78,6 +79,7 @@
     font-family: 'Roboto', sans-serif;
     padding-top: 70px;
     margin-right: 650px;
+    font-size: 21px;
 }
 
 .log-in-image{
