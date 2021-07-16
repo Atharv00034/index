@@ -113,6 +113,7 @@
     box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 30%);
     box-shadow: inset;
     max-width: 100%;
+    /* display: flex; */
     margin-left: 50px;
     border-radius: 10px;
 }
@@ -134,7 +135,7 @@
 .main-content-para2{
     font-size: 20px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 10px;
 }
 
 .main-content-image1{
@@ -149,13 +150,14 @@
 
 .background-color{
     background-color: #082e5b;
+    /* display: flex; */
     color: rgb(197, 197, 197);
     margin-top: 50px;
 }
 
 .main-content-image{
     max-height: 350px;
-    padding-left: 70px;
+    padding-right: 70px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -183,5 +185,9 @@
 }
 
 .live-stock-value{
+    display: flex;
+}
+
+.main-content-flex{
     display: flex;
 }
