@@ -204,3 +204,32 @@
     border-radius: 20px;
     margin-bottom: 50px;
 }
+
+.data-collection-heading1{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.data-collection-main-heading{
+    padding-left: 450px;
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+.data-collection-para1{
+    display: flex;
+    padding-left: 50px;
+}
+
+.data-collection-heading{
+    padding-left: 50px;
+}
+
+.data-collection-heading2{
+    padding-left: 230px;
+}
+
+.data-collection-heading3{
+    padding-left: 280px;
+}
