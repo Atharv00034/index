@@ -4,13 +4,16 @@
 
 *{
     margin: 0;
+    /* width: 100%; */
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .navbar{
     height: 100px;
     width: 100%;
     display: flex;
+  /* display: block; */
 }
 
 .navbar ul{
@@ -182,16 +185,17 @@
 
 .live-stock-button-image{
     padding-top: 20px;
-    height: 60px;
+    height: 70px;
 }
 
 .live-stock-value{
     display: flex;
+    padding-top: 50px;
 }
 
 .main-content-flex{
     display: flex;
-    height: 235px;
+    height: 250px;
 }
 
 .live-content-button{
@@ -207,33 +211,64 @@
 
 .data-collection-heading1{
     display: flex;
-    padding-left: 150px;
+    font-size: 25px;
+    padding-left: 130px;
     padding-top: 30px;
 }
 
 .data-collection-main-heading{
     padding-left: 450px;
     padding-top: 100px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .data-collection-para1{
     display: flex;
-    padding-left: 50px;
+    padding-left: 40px;
+    padding-top: 10px;
+    /* margin-right: 20px; */
+    font-size: 20px;
 }
 
 .data-collection-heading{
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 .data-collection-heading2{
-    padding-left: 230px;
+    padding-left: 170px;
 }
 
 .data-collection-heading3{
-    padding-left: 280px;
+    padding-left: 200px;
+}
+
+.data-collection-button{
+    display: flex;
+    padding-top: 30px;
+    font-size: 20px;
 }
 
 .data-collection-btn{
-    
+    padding-left: 200px;
+}
+
+.data-collection-btn2{
+    padding-left: 270px;
+}
+
+.data-collection-btn3{
+    padding-left: 300px;
+}
+
+.data-collection{
+    margin: 30px;
+    box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 30%);
+    box-shadow: inset;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.footer-img{
+    height: 40px;
+    border-radius: 34px;
 }
