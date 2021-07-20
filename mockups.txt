@@ -1,0 +1,5 @@
+UI/UX Mockups
+
+1. Content Layout- We have used Zig-Zag pattern,cards and text in aur website.
+
+2. Typography- We have used 
