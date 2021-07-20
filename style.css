@@ -8,6 +8,7 @@
     margin: 0;
     /* width: 100%; */
     padding: 0;
+    /* color: white; */
     scroll-behavior: smooth;
 }
 
@@ -34,6 +35,7 @@
     text-decoration: none;
     color: black;
 }
+
 
 .logo {
     padding-right: 5px;
@@ -71,6 +73,13 @@
 
 .navbar-below-text{
     font-family: 'Zen Loop', cursive;
+    color: #082e5b;
+    margin-left: 70px;
+}
+
+.navbar-below-text-live{
+    font-family: 'Zen Loop', cursive;
+    color: #082e5b;
     margin-left: 70px;
 }
 
@@ -126,6 +135,7 @@
 .main-content-heading{
     /* border: 2px solid black; */
     display: flex;
+    color: #082e5b;
     justify-content: center;
     font-size: 40px;
     padding-bottom: 30px;
@@ -203,8 +213,7 @@
 .live-content-button{
     display: flex;
     border: 1px solid black;
-    --tw-bg-opacity: 1;
-    background-color: rgba(79, 70, 229, var(--tw-bg-opacity));;
+    background-color: #0095ff;
     color: black;
     padding-bottom: 10px;
     border-radius: 20px;
@@ -273,4 +282,16 @@
 .footer-img{
     height: 40px;
     border-radius: 34px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.ad1{
+    height: 200px;
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
 }
