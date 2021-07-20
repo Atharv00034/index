@@ -1,9 +1,10 @@
 UI/UX Mockups
 
-1. Content Layout- We have used Zig-Zag pattern,cards and text in aur website.
+1. Content Layout- We have used Zig-Zag pattern,cards and text in our website.
 
 2. Typography- We have used many fonts like Ubantu, Roboto, Caveat, ZenLoop.
 
 3. Colour Pallete- We have used blue color pallete linked in the graphics folder.
 
-4. Adertising Content- We have added some ads related to stock market. Which will lead you to market of national stock exchange. where you can make your demat account  where you can invest in imnumberable shares and increase your profit.
+4. Adertising Content- We have added some ads related to stock market. Which will lead you to market of national stock exchange. where you can make your demat account and invest in imnumberable shares and increase your profit.
+
