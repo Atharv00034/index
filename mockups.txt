@@ -2,7 +2,7 @@ UI/UX Mockups
 
 1. Content Layout- We have used Zig-Zag pattern,cards and text in aur website.
 
-2. Typography- We have used many fonts like Ubantu, Roboto, Lobster, Caveat, ZenLoop.
+2. Typography- We have used many fonts like Ubantu, Roboto, Caveat, ZenLoop.
 
 3. Colour Pallete- We have used blue color pallete linked in the graphics folder.
 
